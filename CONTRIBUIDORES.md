@@ -8,6 +8,7 @@
 - Jaime Rojas Herrero
 - Marta Ruiz González
 - Sufian Embark Aomar
+- Hugo Pérez Muñoz
 
 # Créditos
 
