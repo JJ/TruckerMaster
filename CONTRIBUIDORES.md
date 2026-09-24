@@ -11,6 +11,7 @@
 - Kevin Alberto Almendras Rocha
 - Andrea Quiles Pichel
 - Ángela Moya García
+- Hugo Pérez Muñoz
 
 # Créditos
 
