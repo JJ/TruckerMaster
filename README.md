@@ -6,7 +6,7 @@ Mi padre, camionero, trabaja en una cooperativa en mi pueblo en la que en una of
 
 ## Propuesta de Solución
 
-Conseguir que destinatarios, oficina y camioneros se pongan en contacto para que cada camionero avise por la aplicación que se encuentra disponible. De esta manera, cuando llega un viaje, este se asigna de forma equitativa entre los camioneros disponibles.
+Conseguir que destinatarios, oficina y camioneros se pongan en contacto para que cada camionero avise por la aplicación que se encuentra disponible. De esta manera, cuando llega un viaje, este se asigna de forma equitativa entre los camioneros disponibles. El reparto equitativo se realiza en función de los beneficios obtenidos y el número de viajes. 
 
 ## Estado del Proyecto
 
