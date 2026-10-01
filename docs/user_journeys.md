@@ -2,17 +2,12 @@
 
 ## Camionero que llega a la cooperativa (HU_03)
 
-### Objetivo
-Registrar la llegada del camionero para que pueda participar en el nuevo reparto de viajes del día.
-
-### Pasos
+Para registrar la llegada de cada camionero y que puedan participar en el nuevo reparto de viajes del día con la incorporación de "TruckerMaster" hay que seguir los siguientes pasos:  
 1. El camionero llega al aparcamiento de la cooperativa y accede a TruckerMaster.
 2. Indica que está disponible y el sistema guarda la hora de llegada.
 3. El conductor queda actualizado como conductor disponible.
 4. El sistema le asignará un viaje de los pendientes. 
-
-### Resultado
-El camionero queda registrado como conductor disponible para que el sistema le pueda asignar un viaje.
+Finalmente el camionero quedará registrado como conductor disponible para que el sistema le pueda asignar un viaje.
 
 ## Mi padre, camionero en una cooperativa (HU_01)
 
