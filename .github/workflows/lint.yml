@@ -1,0 +1,23 @@
+name: Chequeo de calidad de código, usando Ruff instalado con uv
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+jobs:
+  ruff-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+      - name: Instalar uv en la MV
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Configurar python con uv
+        run: uv python install 3.12
+      - name: Instalar dependencias
+        run: uv python install 3.12
+      - name: Ejecutar verificación, usando Ruff
+        run: uv run ruff check .
