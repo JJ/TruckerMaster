@@ -18,6 +18,6 @@ jobs:
       - name: Configurar python con uv
         run: uv python install 3.12
       - name: Instalar dependencias
-        run: uv python install 3.12
+        run: uv sync --only-dev
       - name: Ejecutar verificación, usando Ruff
         run: uv run ruff check .
