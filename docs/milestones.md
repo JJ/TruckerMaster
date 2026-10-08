@@ -15,3 +15,6 @@ Creación de la lógica de negocio e interfaz que permite a los usuarios camione
 
 ## [M3] Backend
 Servicio que dado un viaje y los camioneros disponibles calcula a quién asignarlo según beneficio y número de viajes. Es válido cuando los tests confirman que la asignación respeta el criterio equitativo.
+
+## [M4] Frontend
+Interfaz donde la oficina ve y confirma la asignación propuesta y el camionero ve su viaje. Es válido cuando al entrar en un viaje, la asignación aparece y se puede confirmar.
