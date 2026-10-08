@@ -29,3 +29,6 @@ En el README, es necesario incluir los enlaces a los ficheros correspondientes u
 
 ### HUI_03 Falta de claridad sobre normativa de proyecto
 A las personas que se han incorporado al proyecto les puede costar conocer normas de desarrollo como formato de código (normas de tabulación, estándares de nombrado, etc). Sería conveniente crear un fichero donde se estipule todo lo relacionado.
+
+### HUI_04: Instalar Ruff como dependencia de desarrollo y ejecutar action mediante tarea definida
+El pull request número #35 da error debido a la no-instalación de Python y/o Ruff. En la recomendación del repo, se dice que ejecutarlo a través de una tarea definida en el proyecto y con Ruff instalado como dependencia de desarrollo es la forma recomendada de solucionarlo.
