@@ -8,5 +8,7 @@ Mi padre, camionero, trabaja en una cooperativa en mi pueblo en la que en una of
 ### HU_03 Tiempos de espera largos y corrupción
 Llevo siendo una camionera (sí, también hay mujeres camioneras) durante 15 años. El sistema que usamos es muy rudimentario, apuntándonos en la pizarra conforme vamos llegando y esperando a que nos asignen el siguiente viaje. No solo es viejo y lento, a veces me tiro en la terminal esperando hasta media hora, sino que además el jefe suele beneficiar a los miembros de su familia con los mejores trabajos.
 
+### HU_04 Experiencia no considerada
+Hay una empresa destinataria cuyos productos son insumos médicos por lo que sus productos son más frágiles y su entrega debe ser más urgente que otro tipo de productos. Por todo lo anterior la empresa paga tarifas de transporte superiores y se requieren de camioneros experimentados para asegurar la entrega correcta del producto en el tiempo estimado.
 
 ## Historias de Usuario Internas
