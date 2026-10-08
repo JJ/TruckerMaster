@@ -6,6 +6,8 @@ Mi padre, camionero, trabaja en una cooperativa en mi pueblo en la que en una of
 
 ## Historias de Usuario Externas
 
+Historias de usuario de personas externas al proyecto, generalmente potenciales usuarios.
+
 ### HU_03 Tiempos de espera largos y corrupción
 
 Llevo siendo una camionera (sí, también hay mujeres camioneras) durante 15 años. El sistema que usamos es muy rudimentario, apuntándonos en la pizarra conforme vamos llegando y esperando a que nos asignen el siguiente viaje. No solo es viejo y lento, a veces me tiro en la terminal esperando hasta media hora, sino que además el jefe suele beneficiar a los miembros de su familia con los mejores trabajos.
@@ -23,6 +25,8 @@ Soy camionero desde hace 5 años en una empresa de transporte. Cada vez que vuel
 Soy camionero y cuando llego al aparcamiento, me he dado cuenta que cualquiera puede apuntarse en la pizarra con mi nombre por error o a propósito, entonces no hay manera de comprobar quien se apunta realmente. Además luego no puedo consultar mis propios datos sin pedirselos a los oficinistas porque esa informacion solo lo tienen ellos guardados en los archivadores.
 
 ## Historias de Usuario Internas
+
+Historias de usuario de personas internas al proyecto, generalmente presentes,pasados y futuros integrantes del grupo.
 
 ### HUI_01 Necesidad de Organización
 
