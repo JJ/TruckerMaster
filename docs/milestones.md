@@ -12,3 +12,6 @@ Habilitación de la plataforma de identidad que almacena los diferentes usuarios
 
 [M2] Registro de llegada/disponibilidad
 Creación de la lógica de negocio e interfaz que permite a los usuarios camioneros registrar su llegada a base y su disponibilidad para tomar otro trabajo, y a los gestores visualizar los camioneros disponibles. Permite al camionero registrar su llegada y marcarse como disponible, y al gestor ver la lista de camioneros disponibles. Es válido cuando un camionero se marca como disponible y aparece en la lista que ve el gestor.
+
+## [M3] Backend
+Servicio que dado un viaje y los camioneros disponibles calcula a quién asignarlo según beneficio y número de viajes. Es válido cuando los tests confirman que la asignación respeta el criterio equitativo.
