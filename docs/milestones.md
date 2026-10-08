@@ -9,3 +9,6 @@ _Las interfaces de comunicación son tan importantes porque nos permiten trabaja
 
 ## [M1] Registro de usuarios
 Habilitación de la plataforma de identidad que almacena los diferentes usuarios del servicio, registrando sus particularidades y diferentes perfiles. Esta plataforma actúa como punto de entrada y permite presentar diferentes acciones e interfaces en función del rol. Es válido cuando un usuario puede identificarse y ve opciones distintas dependiendo de si e camionero u otro rol.
+
+[M2] Registro de llegada/disponibilidad
+Creación de la lógica de negocio e interfaz que permite a los usuarios camioneros registrar su llegada a base y su disponibilidad para tomar otro trabajo, y a los gestores visualizar los camioneros disponibles. Permite al camionero registrar su llegada y marcarse como disponible, y al gestor ver la lista de camioneros disponibles. Es válido cuando un camionero se marca como disponible y aparece en la lista que ve el gestor.
