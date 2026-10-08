@@ -18,3 +18,8 @@ Soy camionero desde hace 5 años en una empresa de transporte. Cada vez que vuel
 Soy camionero y cuando llego al aparcamiento, me he dado cuenta que cualquiera puede apuntarse en la pizarra con mi nombre por error o a propósito, entonces no hay manera de comprobar quien se apunta realmente. Además luego no puedo consultar mis propios datos sin pedirselos a los oficinistas porque esa informacion solo lo tienen ellos guardados en los archivadores.
 
 ## Historias de Usuario Internas
+
+### HUI_01 Necesidad de Organización
+A la hora de estructurar el proyecto nos vamos a encontrar con una serie de inconvenientes. Debemos crear diferentes historias de usuario, cada una referente a un subproblema distinto. También se deben establecer los milestones y asignarles las historias de usuario relacionadas con los mismos. Todo ello debe hacerse de forma colaborativa, asignando a cada uno su parte del trabajo. Alguien deberá revisar y comprobar que el trabajo se está realizando correctamente.
+Debemos definir claramente la estructura del proyecto para que cada desarrollador pueda trabajar de forma independiente y, así, evitar conflictos más adelante.
+Es necesario crear plantillas y reglas a la hora de hacer PR. También tenemos que definir prácticas para el desarrollo del proyecto y aspectos relacionados con la programación.
