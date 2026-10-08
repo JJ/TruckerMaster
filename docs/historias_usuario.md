@@ -26,3 +26,6 @@ Es necesario crear plantillas y reglas a la hora de hacer PR. También tenemos q
 
 ### HUI_02 Referencias a ficheros
 En el README, es necesario incluir los enlaces a los ficheros correspondientes una vez hayan sido añadidos a la rama principal (Merge del PR).
+
+### HUI_03 Falta de claridad sobre normativa de proyecto
+A las personas que se han incorporado al proyecto les puede costar conocer normas de desarrollo como formato de código (normas de tabulación, estándares de nombrado, etc). Sería conveniente crear un fichero donde se estipule todo lo relacionado.
