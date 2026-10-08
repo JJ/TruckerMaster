@@ -14,4 +14,7 @@ Hay una empresa destinataria cuyos productos son insumos médicos por lo que sus
 ### HU_06 Problemas con Disponibilidad y Organización
 Soy camionero desde hace 5 años en una empresa de transporte. Cada vez que vuelvo de un viaje, lo primero que tengo que hacer es ir a la oficina para apuntarme en la pizarra. Si llego de madrugada o en fin de semana y la oficina está cerrada, no puedo apuntarme hasta que abren, y compañeros que han llegado después que yo acaban por delante en la lista solo porque estaban allí en el momento que se abrió. Además, una vez apuntado nunca sé cuánto me va a tocar esperar ni qué criterio se sigue para darme un viaje u otro. Esto hace que no pueda organizar mi descanso correctamente.
 
+### HU_10 Poca Fiabilidad
+Soy camionero y cuando llego al aparcamiento, me he dado cuenta que cualquiera puede apuntarse en la pizarra con mi nombre por error o a propósito, entonces no hay manera de comprobar quien se apunta realmente. Además luego no puedo consultar mis propios datos sin pedirselos a los oficinistas porque esa informacion solo lo tienen ellos guardados en los archivadores.
+
 ## Historias de Usuario Internas
