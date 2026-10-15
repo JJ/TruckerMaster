@@ -10,6 +10,7 @@ target-version = "py313"
 
 [tool.ruff.lint]
 select = ["E", "W", "F", "N", "B", "PLC2401", "ANN"]
+ignore = ["E402"]
 
 [dependency-groups]
 dev = [
