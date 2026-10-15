@@ -2,10 +2,10 @@
 
 ## [M0] Infraestructura y Organización
 ### Producto
-Representación del dominio del problema concretado en la HU001. Incluye los actores, sus roles y lo que puede hacer cada uno, y las entidades del problema.
+Representación del dominio del problema concretado en la HU001. Incluye las entidades y objetos valor del problema.
 
 ### Criterio de validez
-La validez viene dada por un correcto seguimiento de la metodología propia del Domain Driven Design. Esto quiere decir, que la representación de entidades/objetos valor tiene que venir planteada como problemas (Issues) sobre la HU001. Una vez planteados los problemas, se empieza la modelización mediante código, siempre haciendo referencia a los issues que se resuelven con esa parte del código.
+La validez viene dada por un correcto seguimiento de la metodología propia del Domain Driven Design. Esto quiere decir, analizar el dominio del problema, crear los modelos y por último implementarlos. Aparte de esta metodología, la representación de entidades/objetos valor tiene que venir planteada como problemas (Issues) sobre la HU001. Una vez planteados los problemas, se empieza la modelización mediante código, siempre haciendo referencia a los issues que se resuelven con esa parte del código.
 
 ## [M1] Lógica de negocio
 ### Producto
