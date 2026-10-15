@@ -1,13 +1,10 @@
 # User Journeys
 
-## Camionero que llega a la cooperativa (HU_03)
+## Camionera experimentada disconforme con su situación (HU_03)
 
-Para registrar la llegada de cada camionero y que puedan participar en el nuevo reparto de viajes del día con la incorporación de "TruckerMaster" hay que seguir los siguientes pasos:  
-1. El camionero llega al aparcamiento de la cooperativa y accede a TruckerMaster.
-2. Indica que está disponible y el sistema guarda la hora de llegada.
-3. El conductor queda actualizado como conductor disponible.
-4. El sistema le asignará un viaje de los pendientes. 
-Finalmente el camionero quedará registrado como conductor disponible para que el sistema le pueda asignar un viaje.
+Durante unos largos 15 años, este usuario ha tenido que conformarse con un sistema ampliamente rudimentario para gestionar sus trayectos. Además, sospecha que el sistema actual no es equitativo y beneficia más a los que mantienen vínculos estrechos con el jefe. El procedimiento era el siguiente: la camionera llegaba a la oficina, se apuntaba en la pizarra y tenía que quedarse esperando hasta media hora en ciertas ocasiones para que se le asignase un viaje. Para sorpresa suya, todo esto ha cambiado con la llegada de "TruckerMaster". A diferencia del obsoleto sistema anterior, ahora tan solo tiene que acceder a su teléfono móvil, registrar su llegada a la oficina y, en cuestión de segundos, la aplicación le asigna un trayecto en función de sus últimos viajes. Todo es mucho más rápido y eficiente que antes, además, al ser un proceso automático y mediante un algoritmo que tiene en cuenta los viajes que han hecho sus compañeros y la retribución por estos, la camionera puede estar segura de que el jefe no va a asignar los mejores trabajos a sus familiares, todo se realiza de manera equitativa.
+
+
 
 ## Mi padre, camionero en una cooperativa (HU_01)
 
