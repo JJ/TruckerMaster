@@ -1,25 +1,15 @@
 # Milestones
 
 ## [M0] Infraestructura y Organización
+### Producto
+Representación del dominio del problema concretado en la HU001. Incluye los actores, sus roles y lo que puede hacer cada uno, y las entidades del problema.
 
-**Producto:** el modelo del problema en código. Incluye los actores (camionero, oficina y destinatario), sus roles y lo que puede hacer cada uno, las entidades del problema (viaje e historial de viajes y ganancias de cada camionero) y las **interfaces de comunicación** entre el sistema y los actores y entre las partes del propio sistema.
+### Criterio de validez
+La validez viene dada por un correcto seguimiento de la metodología propia del Domain Driven Design. Esto quiere decir, que la representación de entidades/objetos valor tiene que venir planteada como problemas (Issues) sobre la HU001. Una vez planteados los problemas, se empieza la modelización mediante código, siempre haciendo referencia a los issues que se resuelven con esa parte del código.
 
-_Las interfaces de comunicación son tan importantes porque nos permiten trabajar en paralelo en módulos distintos._
+## [M1] Lógica de negocio
+### Producto
+Implementación de lógica de negocio partiendo del modelo definido en M0. Se incluye implementación de problema(s) definido(s) en issue(s) suficientemente pequeño(s) relacionados con este milestone.
 
-**Qué lo hace válido:** el código del modelo pasa sin errores la comprobación de sintaxis del lenguaje (que compile o que pase el linter), y esto se comprueba de forma automática en cada PR. Además, el modelo tiene que cubrir lo que piden las historias de usuario.
-
-## [M1] Registro de usuarios
-
-Habilitación de la plataforma de identidad que almacena los diferentes usuarios del servicio, registrando sus particularidades y diferentes perfiles. Esta plataforma actúa como punto de entrada y permite presentar diferentes acciones e interfaces en función del rol. Es válido cuando un usuario puede identificarse y ve opciones distintas dependiendo de si e camionero u otro rol.
-
-## [M2] Registro de llegada/disponibilidad
-
-Creación de la lógica de negocio e interfaz que permite a los usuarios camioneros registrar su llegada a base y su disponibilidad para tomar otro trabajo, y a los gestores visualizar los camioneros disponibles. Permite al camionero registrar su llegada y marcarse como disponible, y al gestor ver la lista de camioneros disponibles. Es válido cuando un camionero se marca como disponible y aparece en la lista que ve el gestor.
-
-## [M3] Backend
-
-Servicio que dado un viaje y los camioneros disponibles calcula a quién asignarlo según beneficio y número de viajes. Es válido cuando los tests confirman que la asignación respeta el criterio equitativo.
-
-## [M4] Frontend
-
-Interfaz donde la oficina ve y confirma la asignación propuesta y el camionero ve su viaje. Es válido cuando al entrar en un viaje, la asignación aparece y se puede confirmar.
+### Criterio de validez
+La validez del milestone viene dada por una resolución válida mediante implementación con código de los issues asociados que hagan referencia a los problemas derivados de la lógica de negocio.
