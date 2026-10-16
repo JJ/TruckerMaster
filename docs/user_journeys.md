@@ -6,7 +6,7 @@ Durante unos largos 15 años, este usuario ha tenido que conformarse con un sist
 
 
 
-## Mi padre, camionero en una cooperativa (HU_01)
+## Mi padre, camionero en una cooperativa pasa demasiado tiempo fuera (HU_01)
 
 Antes, mi padre tenía que trabajar incontables horas y casi no pasaba por casa. Ahora, desde que mi padre utiliza "TruckerMaster", él y todos los camioneros de su gremio han visto todos sus problemas solucionados. El proceso es el siguiente:
 
