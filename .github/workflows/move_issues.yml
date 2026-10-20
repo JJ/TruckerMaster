@@ -1,0 +1,11 @@
+name: Mover issues asociados a PR rechazados
+
+on:
+  pull_requests:
+    type: [closed]
+
+jobs:
+  move_issue:
+    # Si no se ha mergeado el PR (es decir, se ha rechazado)
+    if: github_event.pull_request.merged == false
+    # ¡No sé seguir! A ver si a alguien se le ocurre algo, perdón
