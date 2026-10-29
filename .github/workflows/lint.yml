@@ -8,6 +8,12 @@ jobs:
   ruff:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v3
-      - run: uv run ruff check .
+      - name: Descargar el código
+        uses: actions/checkout@v4
+      - name: Instalar uv
+        uses: astral-sh/setup-uv@v3
+      - name: Comprobar el formato con Ruff
+        run: uv run ruff check .
+      - name: Comprobar los tipos con MyPy si hay archivos Python
+        run: |
+          if [ -n "$(git ls-files '*.py')" ]; then uv run mypy .; fi
