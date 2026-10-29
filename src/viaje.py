@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 from destinatario import Destinatario
 
+
 @dataclass
 class Viaje:
     identificador: str
