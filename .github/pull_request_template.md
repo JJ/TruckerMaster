@@ -3,7 +3,7 @@
 ## Descripción
 Esta es la descripción del Pull Request 
 
-## referencia a Issue 
+## Issue(s) asociado(s) 
 Referencia al issue con #numero
 
 ## Mención 
