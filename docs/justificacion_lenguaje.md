@@ -14,5 +14,5 @@ así que el linter revisa el código contra la versión con la que se ejecuta.
 | Herramienta | Uso |
 |---|---|
 | `uv` | Gestionar las dependencias del proyecto |
-| `ruff` | Comprobar el formato y el estilo en cada PR |
+| `ruff` | Comprobar el estilo y los errores del código en cada PR |
 | `pytest` | Ejecutar las pruebas |
