@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 
 from disponibilidad import Disponibilidad
-
 from preferencias import Preferencias
 
 
