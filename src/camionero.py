@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 
-from src.disponibilidad import Disponibilidad
+from disponibilidad import Disponibilidad
 
-from src.preferencias import Preferencias
+from preferencias import Preferencias
 
 
 @dataclass
