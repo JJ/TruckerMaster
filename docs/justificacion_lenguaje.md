@@ -2,7 +2,7 @@
 
 ## Lenguaje: Python
 
-Se elige Python porque permite tipado opcional, donde el código se escribe con anotaciones de tipo que mypy comprueba sin necesidad de compilar, algo que por ejemplo otro lenguajes como Go o Java no permiten. Además su biblioteca estándar ya trae lo necesario para el modelo, las `dataclass` y los `Enum` sirven para definir entidades y objetos valor sin necesidad de dependencias externas, y `@dataclass(frozen=True)` hace que un objeto valor sea inmutable.
+Se elige Python porque permite resolver el problema, su biblioteca estándar ya trae lo necesario para el modelo, las `dataclass` y los `Enum` sirven para definir entidades y objetos valor sin necesidad de dependencias externas, y `@dataclass(frozen=True)` hace que un objeto valor sea inmutable. El motivo principal escogido es que es multiplataforma, lo que facilita el desarrollo en el que cada uno tiene su propio SO.
 
 ## Versión: 3.13
 
