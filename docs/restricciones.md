@@ -2,8 +2,8 @@
 
 ### Tiempo de trabajo
 
-| Restricción | Límite | Artículo |
-|---|---|---|
+| Restricción | Límite |
+|---|---|
 | Jornada ordinaria | 40 h semanales de trabajo efectivo, y no más de 10 h al día (salvo acuerdo)  |
 | Trabajadores móviles (conductores) | 48 h semanales de media en cómputo semestral, y nunca más de 60 h en una semana |
 | Tiempo de presencia (esperas, comidas en ruta, etc.) | Hasta 20 h semanales extra  |
@@ -12,7 +12,7 @@
 | Conducción ininterrumpida | Máximo 4,5 horas seguidas antes de parar |  
 | Pausas obligatorias | Mínimo 45 minutos de descanso (fraccionables en 15 y 30 minutos) |
 
-### Descanso en casa (art. 25.5)
+### Descanso en casa 
 
 Esta es la que más tiene que ver con nuestra HU_01 (lo de estar solo 2 días al mes en casa):
 
@@ -24,8 +24,8 @@ Esta es la que más tiene que ver con nuestra HU_01 (lo de estar solo 2 días al
 
 ## 2. Restricciones de capacitación
 
-| Restricción | Qué implica | Artículo |
-|---|---|---|
+| Restricción | Qué implica |
+|---|---|
 | Permiso C+E | Para la categoría de conductor mecánico (camiones grandes) hace falta el permiso C+E |
 | Conductor internacional novel | Los primeros 6 meses tiene que ir con otro conductor, no puede ir solo |
 | Mercancías peligrosas | Hay conductores dedicados a mercancías peligrosas de forma habitual; no es lo mismo que llevarlas de vez en cuando. |
@@ -35,8 +35,8 @@ Esto conecta con la HU_04 (mercancía especial que necesita camioneros con exper
 
 ## 3. Restricciones de calendario
 
-| Restricción | Detalle | Artículo |
-|---|---|---|
+| Restricción | Detalle |
+|---|---|
 | Vacaciones | 31 días al año, preferiblemente en verano |
 | Festivos | Los del calendario oficial |
 | Medias jornadas | 3 de mayo, viernes de Corpus, 24 y 31 de diciembre |
