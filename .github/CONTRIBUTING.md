@@ -1,9 +1,5 @@
 # Guía para contribuir
 
-## Informar de un problema
-
-Antes de abrir un issue, comprueba si ya existe uno sobre el mismo problema. Tenemos que describir qué problema tenemos y qué esperabamos.
-
 ## Enviar un pull request
 
 - Explicar qué cambia y por qué hemos decidido este cambio.
