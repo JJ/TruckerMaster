@@ -14,8 +14,11 @@ Se elige la 3.13 porque el código no usa nada de versiones posteriores. Por otr
 
 ## Herramientas
 
-| Herramienta | Uso |
-|---|---|
-| `uv` | Gestionar las dependencias del proyecto |
-| `ruff` | Comprobar el estilo y los errores del código en cada PR |
-| `pytest` | Ejecutar las pruebas |
+Se ha realizado una búsqueda de las distintas herramientas analizando las caraceterísticas de unas frente a otras. 
+
+| Herramienta | Uso | Alternativas | Por qué se elige esta |
+|---|---|---|---|
+| `uv` | Gestionar las dependencias del proyecto | pip, Poetry | Sustituye a pip, Poetry y pyenv en una sola herramienta ya que, gestiona dependencias, genera el fichero de bloqueo (`uv.lock`) e instala versiones de Python. Según su documentación es entre 10 y 100 veces más rápido que pip. |
+| `ruff` | Comprobar el estilo y los errores del código en cada PR | Flake8 | Las reglas que usamos (`E`, `W`, `F`, `I`, `N`, `B`) en Flake8 necesitan plugins como isort, pep8-naming o flake8-bugbear. Ruff las reimplementa todas y es entre 10 y 100 veces más rápido. No permite reglas propias, pero no las necesitamos. |
+| `mypy` | Comprobar los tipos en cada PR | Pyright | mypy está pensado para el tipado gradual, que es el que usamos, y se instala con uv como el resto de herramientas. |
+| `pytest` | Ejecutar las pruebas | unittest | Las pruebas se escriben con `assert` normal y fixtures, sin clases ni métodos como `self.assertEqual`, y además puede ejecutar pruebas escritas con unittest. |
