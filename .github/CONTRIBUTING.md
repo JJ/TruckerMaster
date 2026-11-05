@@ -1,9 +1,5 @@
 # Guía para contribuir
 
-## Antes de empezar
-
-Consultar el `README.md` para conocer cómo preparar y ejecutar el proyecto. Este proyecto requiere Python 3.13 o superior.
-
 ## Informar de un problema
 
 Antes de abrir un issue, comprueba si ya existe uno sobre el mismo problema. Tenemos que describir qué problema tenemos y qué esperabamos.
