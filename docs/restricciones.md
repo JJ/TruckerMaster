@@ -40,3 +40,7 @@ Esto conecta con la HU_04 (mercancía especial que necesita camioneros con exper
 | Medias jornadas | 3 de mayo, viernes de Corpus, 24 y 31 de diciembre | Art. 29 |
 | Permisos retribuidos | Fallecimiento o enfermedad grave de familiares (3 días, 5 si es a más de 200 km), matrimonio (20 días), asuntos propios (1 día), mudanza (1 día), renovar el carnet, etc. | Art. 27 |
 
+
+## Fuentes
+
+- [Convenio Colectivo de Transporte de Mercancías por Carretera de Granada 2024-2026](https://ccoo.app/convenio/convenio-colectivo-transporte-de-mercancias-por-carretera-de-granada/)
