@@ -4,8 +4,7 @@
 
 | Restricción | Límite |
 |---|---|
-| Jornada ordinaria | 40 h semanales de trabajo efectivo, y no más de 10 h al día (Con acuerdo entre empresa y representantes se puede pasar de 10 h, pero el convenio no pone un nuevo máximo diario: el límite lo marcan las 60 h semanales y los descansos entre jornadas)  |
-| Trabajadores móviles (conductores) | 48 h semanales de media en cómputo semestral, y nunca más de 60 h en una semana |
+| Jornada ordinaria | 40 h semanales de trabajo efectivo, y no más de 10 h al día (Puede llegar hasta trabajar 60 horas máximo como horas extras, pero la media semestral debe ser de 48 horas a la semana, es decir, si una semana trabaja las 60 horas, a la siguiente deberá trabajar menos para alcanzar las 48 horas de media.)  |
 | Tiempo de presencia (esperas, comidas en ruta, etc.) | Hasta 20 h semanales extra  |
 | Descanso entre jornadas | Puede bajar a 9 h si el servicio dura más de 12 h y ha habido un descanso de 5 h seguidas durante la jornada |
 | Descanso semanal | 2 días seguidos | 
