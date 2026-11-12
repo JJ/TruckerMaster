@@ -16,7 +16,7 @@
 Esta es la que más tiene que ver con nuestra HU_01 (lo de estar solo 2 días al mes en casa):
 
 - Camioneros trabajando en Transporte **nacional**: de cada 12 descansos semanales, al menos **7 en su domicilio**.
-- Transporte **internacional**: de cada 12, al menos **5 en su domicilio**.
+- Camioneros trabajando en Transporte **internacional**: de cada 12 descansos semanales, al menos **7 en su domicilio**.
 - Al menos la mitad de esos descansos tienen que ser normales (dos días seguidos).
 - Al menos 1 de cada 12 semanas el descanso tiene que caer en fin de semana.
 - Si no se cumple, la empresa le debe un día de permiso pagado por cada descanso que no pasó en casa.
