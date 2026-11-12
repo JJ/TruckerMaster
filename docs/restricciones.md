@@ -36,7 +36,7 @@ Esto conecta con la HU_04 (mercancía especial que necesita camioneros con exper
 
 | Restricción | Detalle |
 |---|---|
-| Vacaciones | 31 días al año, preferiblemente en verano |
+| Vacaciones | 31 días al año |
 | Festivos | Los del calendario oficial |
 | Medias jornadas | 3 de mayo, viernes de Corpus, 24 y 31 de diciembre |
 | Permisos retribuidos | Fallecimiento o enfermedad grave de familiares (3 días, 5 si es a más de 200 km), matrimonio (20 días), asuntos propios (1 día), mudanza (1 día), renovar el carnet, etc.|
