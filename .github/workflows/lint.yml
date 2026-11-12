@@ -13,7 +13,7 @@ jobs:
       - name: Instalar uv
         uses: astral-sh/setup-uv@v3
       - name: Instalar poe
-        run: uv install
+        run: uv sync
       - name: Comprobar el formato con Ruff
         run: uv run poe lint
       - name: Comprobar los tipos con MyPy si hay archivos Python
