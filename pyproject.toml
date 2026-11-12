@@ -14,6 +14,7 @@ select = ["E", "W", "F", "I", "N", "B", "PLC2401", "ANN"]
 [dependency-groups]
 dev = [
     "mypy>=2.4.0",
+    "poethepoet>=0.49.0",
     "pytest>=9.1.1",
     "ruff>=0.16.9",
 ]
