@@ -21,3 +21,8 @@ dev = [
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[tool.poe.tasks]
+lint = "ruff check ."
+typecheck = "mypy ."
+test = "pytest"
