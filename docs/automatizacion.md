@@ -55,38 +55,34 @@ Se miden los dos tiempos porque, según indica el guion, lo que se elija ahora s
 
 Sumando los dos tiempos, uv tarda 5,543 s, Poetry 9,961 s, PDM 14,534 s y Hatch 16,288 s. Hatch es el que más tarda y además necesita configuración extra para instalar las dependencias de desarrollo, así que se descarta. PDM es el que antes se instala, pero instala el proyecto en 11,597 s, y Poetry tarda 6,249 s. uv no es el más rápido en instalarse (4,920 s), pero instala el proyecto en 0,623 s, y además es un único programa que no necesita Python para instalarse. Por eso se elige uv.
 
+
 ## Gestor de tareas
  
 Un gestor de tareas permite lanzar, como subcomandos de un solo programa, todas las tareas que hay que llevar a cabo en el proyecto definidas en un único fichero. Ahora mismo, para comprobar el código hay que ejecutar a mano `uv run ruff check .`, `uv run mypy` y `uv run pytest`, y el workflow `lint.yml` repite esas órdenes por su cuenta.
+Como el proyecto ya tiene el fichero `pyproject.toml`, se puede emplear un gestor de tareas que defina las tareas en ese mismo fichero, sin tener que añadir otro. make, just e invoke no lo utilizan, ya que cada uno necesita su propio fichero (`Makefile`, `justfile` y `tasks.py`), y uv necesita una aplicación externa para definir tareas, así que se plantean poethepoet y taskipy, que sí lo utilizan. Para elegir entre ellos se usan estos criterios:
 
-Se comparan make, invoke y just. Destacar que uv no permite definir tareas, luego no sirve como gestor de tareas. Los criterios a saber son los siguientes:
-
-- **Estilo de configuración:** declarativa (las tareas se describen en un fichero) o imperativa (se escriben como código).
-- **Estándar:** si la herramienta sigue un estándar.
-- **Qué hay que instalar:** qué hace falta para usarla.
-- **Espacio que ocupa:** lo que ocupa la herramienta una vez instalada.
+- **Tiempo de instalación de la herramienta:** lo que tarda en descargarse e instalarse el gestor, ya que en un entorno vacío hay que instalarlo antes de lanzar ninguna tarea.
 - **Tiempo en ejecutar `lint`:** lo que tarda en lanzar una tarea `lint` que ejecuta `uv run ruff check .`.
 
-Se adjuntan capturas mostrando las mediciones, para contrastar los datos.
+| Herramienta | Tiempo de instalación de la herramienta | Tiempo en ejecutar `lint` |
+|---|---|---|
+| poethepoet | 0,488 s | 0,450 s |
+| taskipy | 0,297 s | 0,424 s |
 
-| Herramienta | Estilo de configuración | Estándar | Qué hay que instalar | Espacio que ocupa | Tiempo en ejecutar `lint` |
-|---|---|---|---|---|---|
-| make | Declarativa | Sí (POSIX) | Nada | 284 KB | 0,060 s |
-| just | Declarativa | No | Un único programa | 6,3 MB | 0,022 s |
-| invoke | Imperativa | No | Un paquete de Python | 780 KB | 0,247 s |
+Tiempo de instalación de poethepoet:
 
-Mediciones de Make:
+![Tiempo de instalación de poethepoet](../imgs/instalar_poethepoet.png)
 
-![Mediciones de Make](../imgs/medir_make.png)
+Tiempo de instalación de taskipy:
 
-Mediciones de Just:
+![Tiempo de instalación de taskipy](../imgs/instalar_taskipy.png)
 
-![Mediciones de Just](../imgs/medir_just.png)
+Medida de poethepoet:
 
-Mediciones de Invoke:
+![Mediciones de poethepoet](../imgs/medir_poethepoet.png)
 
-![Mediciones de Invoke](../imgs/medir_invoke.png)
+Medida de taskipy:
 
-Se tiene observando la tabla que invoke es el único imperativo, definiendo las tareas en un archivo `.py`. Además se trata de un paquete que hay que instalar y es el que más tarda en ejecutar `lint`. Por otro lado, just es el más rápido, pero la diferencia con make es de unas centésimas de segundo, mientras que make sigue un estándar (POSIX), no hay que instalar nada y ocupa 284 KB frente a los 6,3 MB de just.
+![Mediciones de taskipy](../imgs/medir_taskipy.png)
 
-Por tanto, se elige make, donde cada objetivo del `Makefile` es una tarea que se lanza con `make <tarea>`.
+taskipy se instala antes  y ejecuta `lint` en algo menos de tiempo ,0,424 s frente a 0,450 s. Sumando los dos, taskipy tarda 0,721 s y poethepoet 0,938 s. Por eso se elige taskipy, donde cada tarea se define en la sección `[tool.taskipy.tasks]` de `pyproject.toml` y se lanza con `task <tarea>`.
