@@ -10,7 +10,7 @@ Se usa `uv`
 
 ## Gestor de tareas
 
-`poe` integrado en `uv`.
+`taskipy` integrado en `uv`.
 
 ## Propuesta de Solución
 
