@@ -14,7 +14,7 @@ El proyecto se encuentra en proceso de completar el milestone 0.
 
 ## Documentación Adicional
 
-- Prácticas de Programación (incluir enlace al fichero).
+- [Restricciones sobre los camioneros](https://github.com/JJ/TruckerMaster/blob/restricciones-camioneros-122/docs/restricciones.md).
 - Prácticas de Desarrollo (incluir enlace al fichero).
 - Plantilla PR (incluir enlace al fichero).
 
