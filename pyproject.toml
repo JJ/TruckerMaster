@@ -26,5 +26,5 @@ pythonpath = ["src"]
 lint = "ruff check ."
 typecheck = "mypy ."
 test = "pytest"
-check = "task lint && task typecheck"
+check = "task typecheck && task lint"
 install = "uv sync"
