@@ -1,3 +1,4 @@
+import datetime
 from dataclasses import dataclass
 
 from destinatario import Destinatario
@@ -10,3 +11,5 @@ class Viaje:
     rentabilidad_euros: float
     mercancia_especial: bool
     destinatario: Destinatario
+    fecha_inicio: datetime.datetime
+    fecha_fin: datetime.datetime
