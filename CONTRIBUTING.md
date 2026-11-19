@@ -13,5 +13,9 @@ Sigue las [buenas prácticas](https://www.git-tower.com/learn/git/ebook/en/comma
     - Explica qué cambia y por qué.
     - De manera breve y concisa. No más de 120 caracteres en total.
 
+## Escribir código
+Además de las comprobaciones de Ruff y MyPy, se siguen estas convenciones:
+    - Los `Enum` que solo distinguen estados usan `auto()` como valor, no un texto con significado.
+
 ## Enviar un pull request
 Usar la plantilla de pull request del repositorio para completar la descripción.
