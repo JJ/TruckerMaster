@@ -13,7 +13,7 @@ jobs:
       - name: Instalar uv
         uses: astral-sh/setup-uv@v3
       - name: Instalar las dependencias
-        run: uv sync
+        run: uv run task install
       - name: Comprobar el formato con Ruff
         run: uv run task lint
       - name: Comprobar los tipos con MyPy si hay archivos Python
