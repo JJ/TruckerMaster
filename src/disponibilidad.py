@@ -1,7 +1,7 @@
-from enum import Enum
+from enum import Enum, auto
 
 
 class Disponibilidad(Enum):
-    DISPONIBLE_EN_TERMINAL = "disponible en terminal"
-    DISPONIBLE_EN_CASA = "disponible en casa"
-    NO_DISPONIBLE = "no disponible"
+    DISPONIBLE_EN_TERMINAL = auto()
+    DISPONIBLE_EN_CASA = auto()
+    NO_DISPONIBLE = auto()
