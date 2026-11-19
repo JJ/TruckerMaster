@@ -1,5 +1,7 @@
 from dataclasses import dataclass
+
 from registro_viajes import RegistroViaje
+
 
 @dataclass
 class ArchivoViajes:
