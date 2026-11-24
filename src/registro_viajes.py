@@ -5,4 +5,4 @@ from viaje import Viaje
 
 @dataclass
 class RegistroViaje:
-    historial_viajes: dict[str, list[Viaje]]
+    viajes_por_camionero: dict[str, dict[int, Viaje]]

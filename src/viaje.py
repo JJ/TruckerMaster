@@ -11,5 +11,3 @@ class Viaje:
     rentabilidad_euros: float
     mercancia_especial: bool
     destinatario: Destinatario
-    fecha_inicio: datetime.datetime
-    fecha_fin: datetime.datetime
