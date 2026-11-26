@@ -1,7 +1,5 @@
-from dataclasses import FrozenInstanceError, is_dataclass
+from dataclasses import is_dataclass
 from unittest.mock import Mock
-
-import pytest
 
 from camionero import Camionero
 from disponibilidad import Disponibilidad
