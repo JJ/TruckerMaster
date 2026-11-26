@@ -1,2 +1,2 @@
-def test_ci_pipeline():
+def test_ci_pipeline() -> None:
     assert True
