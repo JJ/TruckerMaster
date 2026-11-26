@@ -69,7 +69,7 @@ def _build_registro_viaje() -> RegistroViaje:
         ),
         (
             _build_registro_viaje,
-            {"viajes_por_camionero": {"C-001": {1: [_build_viaje()]}}},
+            {"viajes_por_camionero": {"C-001": {1: (_build_viaje(),)}}},
         ),
     ],
     ids=[
