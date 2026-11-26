@@ -10,3 +10,6 @@ class Camionero:
     nombre: str
     preferencias: Preferencias
     disponibilidad: Disponibilidad
+
+    def esta_disponible(self) -> bool:
+        return self.disponibilidad != Disponibilidad.NO_DISPONIBLE
