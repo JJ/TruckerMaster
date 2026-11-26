@@ -18,11 +18,12 @@ Conseguir que destinatarios, oficina y camioneros se pongan en contacto para que
 
 ## Estado del Proyecto
 
-El proyecto se encuentra en proceso de completar el milestone 0.
+El proyecto sigue en desarrollo. 
+Los milestones [M0: Infraestructura y Organización](https://github.com/JJ/TruckerMaster/milestone/4) y [M1: Lógica de negocio](https://github.com/JJ/TruckerMaster/milestone/1) continúan abiertos. Consulta el [tablero del proyecto](https://github.com/users/JJ/projects/12/views/1) para ver el estado actualizado de las tareas. 
 
 ## Documentación Adicional
 
-- [Restricciones sobre los camioneros](https://github.com/JJ/TruckerMaster/blob/restricciones-camioneros-122/docs/restricciones.md).
-- Prácticas de Desarrollo (incluir enlace al fichero).
-- Plantilla PR (incluir enlace al fichero).
+- [Restricciones sobre los camioneros](https://github.com/JJ/TruckerMaster/blob/main/docs/restricciones.md).
+- [Guía para contribuir](https://github.com/JJ/TruckerMaster/blob/main/CONTRIBUTING.md).
+- [Plantilla PR](https://github.com/JJ/TruckerMaster/blob/main/.github/pull_request_template.md).
 
