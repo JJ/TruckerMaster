@@ -1,11 +1,11 @@
-name: Lint
+name: Test Python
 
 on:
   pull_request:
     branches: [main, modelo]
 
 jobs:
-  ruff:
+  python-test:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el código
@@ -19,3 +19,5 @@ jobs:
       - name: Comprobar los tipos con MyPy si hay archivos Python
         run: |
           if [ -n "$(git ls-files '*.py')" ]; then uv run task typecheck; fi
+      - name: Pasar los test
+        run: uv run task test
