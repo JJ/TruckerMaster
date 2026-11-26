@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from destinatario import Destinatario
 
 
-@dataclass
+@dataclass(frozen=True)
 class Viaje:
     identificador: str
     distancia_km: float
