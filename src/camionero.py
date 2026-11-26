@@ -4,7 +4,7 @@ from disponibilidad import Disponibilidad
 from preferencias import Preferencias
 
 
-@dataclass
+@dataclass(frozen=True)
 class Camionero:
     identificador: str
     nombre: str
