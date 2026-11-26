@@ -6,6 +6,5 @@ from preferencias import Preferencias
 
 @dataclass
 class Camionero:
-    identificador: str
     preferencias: Preferencias
     disponibilidad: Disponibilidad
