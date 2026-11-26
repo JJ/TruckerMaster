@@ -5,7 +5,7 @@ on:
     branches: [main, modelo]
 
 jobs:
-  ruff:
+  python-test:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el código
