@@ -14,8 +14,7 @@ Sigue las [buenas prácticas](https://www.git-tower.com/learn/git/ebook/en/comma
     - De manera breve y concisa. No más de 120 caracteres en total.
 
 ## Escribir código
-Para Python se siguen los estándares propuestos en [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/). Además, se siguen estas convenciones:
-    - Los `Enum` que solo distinguen estados usan `auto()` como valor, no un texto con significado.
+Para Python se siguen los mejores estándares recogidos en los [PEP (Python Enhancement Proposals)](https://peps.python.org/).
 
 ## Enviar un pull request
 Usar la plantilla de pull request del repositorio para completar la descripción.
