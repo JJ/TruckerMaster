@@ -1,8 +1,9 @@
+from collections.abc import Mapping
 from dataclasses import dataclass
 
 from viaje import Viaje
 
 
-@dataclass
+@dataclass(frozen=True)
 class RegistroViaje:
-    viajes_por_camionero: dict[str, dict[int, list[Viaje]]]
+    viajes_por_camionero: Mapping[str, Mapping[int, tuple[Viaje, ...]]]
