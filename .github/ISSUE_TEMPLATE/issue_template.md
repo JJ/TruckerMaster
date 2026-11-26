@@ -4,11 +4,7 @@
 
 # Sub-issues
 
-- aqui_va_subissue_cuando_se_abra
-
-# Revisores
-
-TODOS
+- [ ] aqui_va_subissue_cuando_se_abra
 
 # Comentarios
 
@@ -16,8 +12,7 @@ De necesitarse comentarios, se añaden aquí
 
 # Checklist
 
-- [ ] He añadido los revisores
 - [ ] He añadido el tag
 - [ ] He añadido, de ser pertinente, los subissues
-- [ ] He enlazado con la historia de usuario
+- [ ] He enlazado con la historia de usuario o con un issue "padre"
 - [ ] He comprobado que no hay duplicidad (es decir, este issue no es redundante)
