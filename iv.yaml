@@ -1,5 +1,0 @@
-lenguaje: python
-entidad: src/viaje.py
-automatizar:
-  fichero: pyproject.toml
-  orden: uv run task
