@@ -1,11 +1,8 @@
-import datetime
 from dataclasses import dataclass
+
+from viaje import Viaje
 
 
 @dataclass
 class RegistroViaje:
-    id_camionero: str
-    id_viaje: str
-    motivo: str
-    fecha_inicio: datetime.datetime
-    fecha_fin: datetime.datetime
+    viajes_por_camionero: dict[str, dict[int, list[Viaje]]]
