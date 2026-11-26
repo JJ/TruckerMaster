@@ -1,3 +1,8 @@
+---
+name: Issue básico
+about: Plantilla de issues de propósito general; problemas reales que parten de historias de usuario.
+---
+
 # Descripción
 
  Aquí va la descripción del issue. No la dejéis demasiado escueta, porque luego no se entiende bien de qué va.
