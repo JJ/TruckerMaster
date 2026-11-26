@@ -19,3 +19,5 @@ jobs:
       - name: Comprobar los tipos con MyPy si hay archivos Python
         run: |
           if [ -n "$(git ls-files '*.py')" ]; then uv run task typecheck; fi
+      - name: Pasar los test
+        run: uv run task test
